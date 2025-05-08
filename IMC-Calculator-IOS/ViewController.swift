@@ -33,8 +33,8 @@ class ViewController: UIViewController {
     }
     @IBAction func calcButton(_ sender: Any) {
         
-        let result = Float(weight) / pow
-        
+        let result = Float(weight) / pow((Float(height) / 100.0), 2)
+        resultLabel.text = String(format: "%.2f", result)
 
      }
 
