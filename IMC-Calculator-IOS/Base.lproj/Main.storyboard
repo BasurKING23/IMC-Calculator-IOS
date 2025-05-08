@@ -94,6 +94,7 @@
                     <connections>
                         <outlet property="AlturaLabel" destination="tj3-ts-LNw" id="Um8-4S-r1N"/>
                         <outlet property="PesoLabel" destination="JGM-zf-yl4" id="acY-Et-6Fo"/>
+                        <outlet property="descriptionResult" destination="hmW-BN-bN4" id="0Gb-iO-MAM"/>
                         <outlet property="resultLabel" destination="xo0-A0-lWP" id="E82-MR-3Qg"/>
                     </connections>
                 </viewController>
